@@ -15,7 +15,6 @@ struct ContentView: View {
     
     @State var keyNumberString = "0"
     @State var keyNumberString_temp = "0"
-    
     var body: some View {
         VStack {
             
@@ -50,6 +49,8 @@ struct ContentView: View {
                 .onTapGesture {
                     anser = Double(keyNumberString)! * pointNumber
                 }
+            
+            
         }
     }
 }

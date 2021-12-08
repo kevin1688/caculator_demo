@@ -11,6 +11,8 @@
 		66491EE2275A503600669598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66491EE1275A503600669598 /* ContentView.swift */; };
 		66491EE4275A503900669598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66491EE3275A503900669598 /* Assets.xcassets */; };
 		66491EE7275A503900669598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66491EE6275A503900669598 /* Preview Assets.xcassets */; };
+		668F62C5275F85DF00DA4871 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F62C4275F85DF00DA4871 /* DataModel.swift */; };
+		668F62C7275F87D600DA4871 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F62C6275F87D600DA4871 /* Demo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		66491EE1275A503600669598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66491EE3275A503900669598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66491EE6275A503900669598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		668F62C4275F85DF00DA4871 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		668F62C6275F87D600DA4871 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				66491EDF275A503600669598 /* caculator_demoApp.swift */,
 				66491EE1275A503600669598 /* ContentView.swift */,
+				668F62C6275F87D600DA4871 /* Demo.swift */,
+				668F62C4275F85DF00DA4871 /* DataModel.swift */,
 				66491EE3275A503900669598 /* Assets.xcassets */,
 				66491EE5275A503900669598 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				66491EE2275A503600669598 /* ContentView.swift in Sources */,
 				66491EE0275A503600669598 /* caculator_demoApp.swift in Sources */,
+				668F62C7275F87D600DA4871 /* Demo.swift in Sources */,
+				668F62C5275F85DF00DA4871 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
